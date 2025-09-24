@@ -1,0 +1,30 @@
+Python path: /home/leejg/Test1/.venv/bin/python
+CUDA available: True
+GPU count: 2
+Using device: cuda
+Train Epoch: 1 [0/60000] Loss: 2.288200
+Train Epoch: 1 [6400/60000] Loss: 0.316363
+Train Epoch: 1 [12800/60000] Loss: 0.048269
+Train Epoch: 1 [19200/60000] Loss: 0.078204
+Train Epoch: 1 [25600/60000] Loss: 0.096293
+Train Epoch: 1 [32000/60000] Loss: 0.153702
+Train Epoch: 1 [38400/60000] Loss: 0.010208
+Train Epoch: 1 [44800/60000] Loss: 0.049204
+Train Epoch: 1 [51200/60000] Loss: 0.040122
+Train Epoch: 1 [57600/60000] Loss: 0.023924
+
+Test set: Avg loss: 0.0501, Accuracy: 9834/10000 (98.34%)
+
+Train Epoch: 2 [0/60000] Loss: 0.031760
+Train Epoch: 2 [6400/60000] Loss: 0.054479
+Train Epoch: 2 [12800/60000] Loss: 0.005964
+Train Epoch: 2 [19200/60000] Loss: 0.078535
+Train Epoch: 2 [25600/60000] Loss: 0.031960
+Train Epoch: 2 [32000/60000] Loss: 0.008059
+Train Epoch: 2 [38400/60000] Loss: 0.035912
+Train Epoch: 2 [44800/60000] Loss: 0.017386
+Train Epoch: 2 [51200/60000] Loss: 0.003443
+Train Epoch: 2 [57600/60000] Loss: 0.053875
+
+Test set: Avg loss: 0.0441, Accuracy: 9861/10000 (98.61%)
+

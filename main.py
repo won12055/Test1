@@ -55,9 +55,6 @@ def train(epoch):
         if batch_idx % 100 == 0:
             print(f"Train Epoch: {epoch} [{batch_idx*len(data)}/{len(train_loader.dataset)}] Loss: {loss.item():.6f}")
 
-# ======================
-# 6. 평가 함수
-# ======================
 def test():
     model.eval()
     test_loss, correct = 0, 0
@@ -73,10 +70,7 @@ def test():
     acc = 100. * correct / len(test_loader.dataset)
     print(f"\nTest set: Avg loss: {test_loss:.4f}, Accuracy: {correct}/{len(test_loader.dataset)} ({acc:.2f}%)\n")
 
-# ======================
-# 7. 실행
-# ======================
-for epoch in range(1, 3):  # 2 epoch만 학습 예시
+for epoch in range(1, 3):  
     train(epoch)
     test()
 
